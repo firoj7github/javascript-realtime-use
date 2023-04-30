@@ -1,7 +1,12 @@
 body{
-    background-color: black;
+    
     margin: 0;
     padding: 0;
+}
+.part-1{
+    background-color: black;
+    width: 100%;
+    height: 800px;
 }
 header{
     background-color: black;
@@ -38,5 +43,27 @@ header.scrolled nav a{
     padding: 5px;
     font-size: 17px;
     color: white;
-    margin-top: 85px;
+    margin-top: 65px;
+}
+
+
+/* Slider Css */
+
+.all-slider{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.active{
+    visibility: visible;
+    opacity: 1;
 }
